@@ -1,0 +1,28 @@
+"List the column names corresponding to the sheet columns found in your ""Data"" sheet below. The Mail Merge Fields will be created based on the column names. Use these mail merge fields in your template document.",,
+Sheet Column,Column Name,Mail Merge Field
+A,Timestamp,%dateline%
+B,Email Address,%Email Address%
+C,Name of the preschool the child is transferring from?,%Name of the preschool the child is transferring from\?%
+parsed_data!A,Student Name,%Student Name \(Merged\)%
+N,What name does the child go by?,%What name does the child go by\?%
+O,Did the child attend a Summer Pre-K program?,%Did the child attend a Summer Pre-K program\?%
+P,"If you answered yes to the above question, what was the name of the school and location?","%If you answered yes to the above question, what was the name of the school and location\?%"
+Q,Parent or Guardian Name:,%Parent or Guardian Name:%
+R,Parent or Guardian Phone Number:,%Parent or Guardian Phone Number:%
+S,What is the best language to communicate with the family?,%What is the best language to communicate with the family\?%
+T,Language(s) the child speaks:,%Language\(s\) the child speaks:%
+U,Who does the child live with or see the most?,%Who does the child live with or see the most\?%
+V,Please describe any recent changes in the child’s life that might have an effect on the child’s transition:,%Please describe any recent changes in the child’s life that might have an effect on the child’s transition:%
+W,What is special about the child and what are some of their favorite activities?,%What is special about the child and what are some of their favorite activities\?%
+X,"What would you like the child’ teacher to know about this child? (personality, behavior, challenges):","%What would you like the child’ teacher to know about this child\? \(personality, behavior, challenges\):%"
+Y,Describe strategies or accommodations that work well for the child? What can teachers/school do to help this child succeed?,%Describe strategies or accommodations that work well for the child\? What can teachers/school do to help this child succeed\?%
+Z,"Describe the child learning style (plays mostly alone or with others, needs adult help with certain things?)","%Describe the child learning style \(plays mostly alone or with others, needs adult help with certain things\?\)%"
+AA,Does the child have an Individualized Education Plan (IEP)?,%Does the child have an Individualized Education Plan \(IEP\)\?%
+AB,Does the child communicate clearly?,%Does the child communicate clearly\?%
+AC,"Does the child have known allergies/health concerns? If yes, please provide details.",%Does the child have known allergies/health concerns\?%
+AD,Are there any services that the child is currently receiving that the elementary school should continue?,%Are there any services that the child is currently receiving that the elementary school should continue\?%
+AE,Is this a COST referral?,%Is this a COST referral/?%
+AF,Suggestions for COST (only if COST referral),%Suggestions for COST \(only if COST referral\)%
+AG,Name of the individual who submitted this form: ,%Name of the individual who submitted this form:%
+AH,School name of the individual who submitted this form: ,%School name of the individual who submitted this form:%
+AI,Phone number of the individual who submitted this form: ,%Phone number of the individual who submitted this form:%
