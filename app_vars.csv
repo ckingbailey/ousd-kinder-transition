@@ -3,12 +3,8 @@ Replace the values below with the appropriate values for your form and template.
 Variable,Value,Description
 folderID,14tAlgoPHUZV-PB7Sh-cK9BO0hwb1NEwd,REQUIRED - ID of folder containing project
 templateDocId,1jS04nEh_-_qpkAz4Sk4FOhxEmErgOoZ8LJHqAiIuXbU,REQUIRED - Document ID of template document
-formID,1RXoEGhCVt7yATzkuhyzbodRBAMgmVB1hh9DQwXI1vzg,(Currently unused)
-startRow,9,Optional - this field will be updated by the script. You can set it to the row you want the script to start with
 newDocNameCol,parsed_data!C,REQUIRED - The sheet column to use for the the new documents' names (Default: A)
 newFolderCol,parsed_data!B,"REQUIRED - The name of the new folder where merged letters will be stored (Default: ""Merged Collection"")"
+startRow,9,Optional - this field will be updated by the script. You can set it to the row you want the script to start with
+endRow,,Optional - Select the last row to merge (Default: It will use the last row that has any data)
 dateline,,"Optional - date to replace %dateline% field in template, leave blank for current date"
-maxRowsOverride,,Optional - Select the last row to merge (Default: It will use the last row that has any data)
-appendTimestamp,NO,"Do you want to append a timestamp to the end of the above collection name? (Default: ""YES"")"
-timeZone,GMT-7,Enter your time zone -  (Default: GMT)
-keyCol,D,
